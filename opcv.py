@@ -10,7 +10,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
 # capture frames from a camera
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 b=[0,0,0,0]
 # loop runs if capturing has been initialized.
 while True:
